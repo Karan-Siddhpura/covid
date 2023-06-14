@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  background-image: linear-gradient(to right bottom, #ffa500, white, #00ff7f);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  padding: 40px;
+  width: 94%;
+  display: flex;
+  flex-wrap: wrap;
+}
